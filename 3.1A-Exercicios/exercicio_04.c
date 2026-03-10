@@ -1,3 +1,9 @@
+/*
+Leitura e Impressão de Linhas Específicas: Escreva um programa que leia um
+arquivo de texto linha por linha e imprima apenas as linhas que começam com uma
+determinada letra ou palavra especificada pelo usuário
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -1,6 +1,7 @@
 /*
-Contagem de Palavras em um Arquivo: Escreva um programa que abra um arquivo
-de texto, conte o número de palavras nele e exiba o resultado na tela.
+Contagem de Caracteres Específicos: Crie um programa que conte quantas vezes
+um caractere específico aparece em um arquivo de texto. Permita que o usuário
+especifique o caractere a ser contado
 */
 
 #include <stdio.h>
@@ -9,7 +10,6 @@ de texto, conte o número de palavras nele e exiba o resultado na tela.
 int main() {
     FILE *arquivo;
     char caractere;
-    int contador = 0;
     // Abre o arquivo para leitura
     arquivo = fopen("arquivo_texto.txt", "r");
     // Verifica se o arquivo foi aberto com sucesso
@@ -19,16 +19,8 @@ int main() {
     }
     // Lê o arquivo caractere por caractere até o final
     while ((caractere = fgetc(arquivo)) != EOF) {
-        if(caractere == ' ' || caractere == '\n' || caractere == '\t' ){
-            contador ++;
-        }
+        printf("%c\n", caractere);
     }
-    // Garantir que conte a ultima palavra
-    contador += 1;
-
-    // Imprimir resultado
-    printf("O arquivo possui: %d palavras.\n", contador);
-
     // Fecha o arquivo
     fclose(arquivo);
 

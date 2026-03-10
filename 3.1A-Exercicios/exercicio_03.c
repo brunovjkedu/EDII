@@ -1,3 +1,8 @@
+/*
+Edição de Arquivo: Desenvolva um programa que permita ao usuário editar um
+arquivo de texto. Ele deve solicitar ao usuário que insira o texto que deseja adicionar
+ao arquivo existente e, em seguida, deve adicionar esse texto ao final do arquivo.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

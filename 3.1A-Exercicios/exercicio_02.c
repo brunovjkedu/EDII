@@ -1,3 +1,9 @@
+/*
+Cópia de Arquivo: Crie um programa que copie o conteúdo de um arquivo de texto
+para outro arquivo. Certifique-se de que o arquivo de destino seja criado se ainda
+não existir.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

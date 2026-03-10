@@ -15,7 +15,7 @@ int main() {
     }
     // Lê o arquivo caractere por caractere até o final
     while ((caractere = fgetc(arquivo)) != EOF) {
-        if(caractere == ' ' || caractere == '\n' ){
+        if(caractere == ' ' || caractere == '\n' || caractere == '\t' ){
             contador ++;
         }
     }

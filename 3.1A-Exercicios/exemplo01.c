@@ -5,7 +5,7 @@ int main() {
     FILE *arquivo;
     char caractere;
     // Abre o arquivo para leitura
-    arquivo = fopen("arquivo.txt", "r");
+    arquivo = fopen("arquivo_texto.txt", "r");
     // Verifica se o arquivo foi aberto com sucesso
     if (arquivo == NULL) {
         printf("Erro ao abrir o arquivo.\n");
